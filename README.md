@@ -1,0 +1,9 @@
+# CosMx
+ 
+Seurat (R-based) – this is the most commonly used package for analyzing CosMx datasets. Here’s a link to a vignette that uses Seurat to analyze our publicly available Human Lung dataset: https://satijalab.org/seurat/articles/seurat5_spatial_vignette_2
+We will provide you with a Seurat object at the conclusion of your TAP study.
+Squidpy (Python-based) – the Squidpy package is continuing to be built out and it seems like new functionalities are popping up every month. I have actually noticed a larger number of customers begin to prefer it over Seurat - though each package likely has its own strengths and weaknesses. Here’s a link to a vignette that uses Squidpy to analyze our publicly available NSCLC dataset: https://squidpy.readthedocs.io/en/stable/notebooks/tutorials/tutorial_nanostring.html#
+We will provide you with the necessary raw data inputs to use Squidpy.
+Giotto (R-based) – historically, we used to use Giotto a lot when analyzing CosMx data. It has slowly been phased out, but there are still some customers who come in with pre-existing experience with it and still prefer it. Here’s a vignette using Giotto with the NSCLC dataset: https://giottosuite.readthedocs.io/en/latest/subsections/datasets/Nanostring_Lung12.html
+Here’s a vignette that uses our publicly available Liver dataset to compare various analysis methods: https://nanostring.com/wp-content/uploads/2023/01/LiverPublicDataRelease.html#23_Comparison_of_Methods
+And lastly, a critical resource is going to be our CosMx-Analysis-Scratch-Space, which can be found on our GitHub account. This Scratch Space (link) has a long list of short examples of common analyses that are carried out with our data, along with information that addresses a lot of the FAQs we receive from folks working with our data. Please leverage this site as you work through the analysis of your data.
